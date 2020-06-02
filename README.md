@@ -6,7 +6,9 @@ Map your travels around the world.
 
 ![Preview](http://i.imgur.com/7kFVWux.png)
 
-See a live demo here: https://robertboloc.eu/projects/travels/
+See a live demo here: https://nuxseme.com/travels/
+
+forked from ![robertmarsal/travels](https://github.com/robertmarsal/travels)
 
 ## Installation
 
