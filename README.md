@@ -8,7 +8,7 @@ Map your travels around the world.
 
 See a live demo here: https://nuxseme.com/travels/
 
-forked from ![robertmarsal/travels](https://github.com/robertmarsal/travels)
+forked from [robertmarsal/travels](https://github.com/robertmarsal/travels)
 
 ## Installation
 
