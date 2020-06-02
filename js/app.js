@@ -68,7 +68,7 @@ var styles = [
 ];
 
 var mapOptions = {
-    center: {lat: 38.957083, lng: -39.074225},
+    center: {lat: 32.709689, lng: 108.320382},
     zoom: 3,
     disableDefaultUI: true,
     backgroundColor: '#2b2b2b',
@@ -84,8 +84,8 @@ function addMarkers(map, points) {
                 path: google.maps.SymbolPath.CIRCLE,
                 scale: 4,
                 strokeWeight: 4,
-                strokeColor: '#FF0066',
-                fillColor: '#FF0066',
+                strokeColor: '#0bff46',
+                fillColor: '#0bff46',
                 fillOpacity: 1,
             },
             map: map
