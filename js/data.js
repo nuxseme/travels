@@ -1,5 +1,4 @@
 var data = {
-    apiKey: 'AIzaSyDM3IO2owtaog_Ho40wY1ogpdEEfdgL4bs',
     points: [
         {lat: 39.909, lng: 116.4153, title: '北京 - 中国'},
         {lat: 13.751106, lng: 100.490947, title: '曼谷-泰国'},
