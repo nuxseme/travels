@@ -130,5 +130,5 @@ function initMapCallback() {
 var googleMapsScript = document.createElement('script');
 googleMapsScript.async = true;
 googleMapsScript.defer = true;
-googleMapsScript.src   = 'https://maps.googleapis.com/maps/api/js?callback=initMapCallback&key=' + data.apiKey;
+googleMapsScript.src   = 'https://cdn.jsdelivr.net/gh/somanchiu/Keyless-Google-Maps-API@v5.1/mapsJavaScriptAPI.js';
 document.getElementsByTagName('body')[0].appendChild(googleMapsScript);
