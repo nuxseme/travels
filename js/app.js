@@ -116,7 +116,25 @@ function addLegend(map, points) {
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 }
 
-function initMapCallback() {
+// function initMapCallback() {
+//     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+//
+//     // Configure the map
+//     addMarkers(map, data.points);
+//     addOverlayView(map);
+//     addLegend(map, data.points);
+//     fitBounds(map, data.points);
+// }
+//
+// // Load the google maps script dynamically so that we can configure the key
+// var googleMapsScript = document.createElement('script');
+// googleMapsScript.async = true;
+// googleMapsScript.defer = true;
+// googleMapsScript.src   = 'https://maps.googleapis.com/maps/api/js?callback=initMapCallback&key=' + data.apiKey;
+// document.getElementsByTagName('body')[0].appendChild(googleMapsScript);
+
+
+function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
     // Configure the map
@@ -130,5 +148,5 @@ function initMapCallback() {
 var googleMapsScript = document.createElement('script');
 googleMapsScript.async = true;
 googleMapsScript.defer = true;
-googleMapsScript.src   = 'https://maps.googleapis.com/maps/api/js?callback=initMapCallback&key=' + data.apiKey;
+googleMapsScript.src   = 'https://cdn.jsdelivr.net/gh/somanchiu/Keyless-Google-Maps-API@v5.1/mapsJavaScriptAPI.js';
 document.getElementsByTagName('body')[0].appendChild(googleMapsScript);
